@@ -1,11 +1,11 @@
 Package.describe({
-    summary: "Azimuth CMS frontend templates (using Bootstrap 2.x)"
+    summary: "Azimuth CMS frontend templates (using Bootstrap v3.0.3)"
 });
 
 Package.on_use(function (api) {
   api.use(['less'], 'client');
   api.use(['templating'], 'client');
-  api.use(['bootstrap'], 'client');
+  api.use(['bootstrap-3'], 'client');
   api.use(['azimuth-core'], 'client', {unordered: true});
 
   api.add_files([

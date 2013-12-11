@@ -1,10 +1,10 @@
 {
-  "name": "azimuth-views-bootstrap",
-  "description": "Azimuth CMS frontend templates (using Bootstrap 2.x)",
-  "homepage": "https://github.com/mcrider/azimuth-views-bootstrap",
-  "author": "Matt Crider (http://matthewcrider.com)",
-  "version": "0.2.1",
-  "git": "https://github.com/mcrider/azimuth-views-bootstrap.git",
+  "name": "azimuth-views-bootstrap-3",
+  "description": "Azimuth CMS frontend templates (using Bootstrap v3.0.3)",
+  "homepage": "https://github.com/ctrimm/azimuth-views-bootstrap",
+  "author": "Cory Trimm (http://corytrimm.com)",
+  "version": "0.0.1",
+  "git": "https://github.com/ctrimm/azimuth-views-bootstrap.git",
   "packages": {
     "azimuth-core": {}
   }
