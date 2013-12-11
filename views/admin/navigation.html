@@ -1,10 +1,10 @@
 <template name="navigation">
   <div class="container navigation">
     <div class="row">
-      <div class="span12">
-        <h2>Header Navigation<a class="btn btn-small add-link"><i class="fa fa-plus"></i>&nbsp;Add link</a></h2>
+      <div class="col-md-12">
+        <h2>Header Navigation<a class="btn btn-sm btn-default add-link"><i class="fa fa-plus"></i>&nbsp;Add link</a></h2>
       </div>
-      <div class="span6">
+      <div class="col-md-6">
         <div class="header-dd dd" id="header_active">
           {{#if headerNav}}
             {{#with headerNav}}
@@ -15,7 +15,7 @@
           {{/if}}
         </div>
       </div>
-      <div class="span6">
+      <div class="col-md-6">
         <div class="header-dd dd" id="header_disabled">
           {{#if headerNavDisabled}}
             {{#with headerNavDisabled}}
@@ -28,10 +28,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="span12">
-        <h2>Footer Navigation<a class="btn btn-small add-link"><i class="fa fa-plus"></i>&nbsp;Add link</a></h2>
+      <div class="col-md-12">
+        <h2>Footer Navigation<a class="btn btn-sm btn-default add-link"><i class="fa fa-plus"></i>&nbsp;Add link</a></h2>
       </div>
-      <div class="span6">
+      <div class="col-md-6">
         <div class="footer-dd dd" id="footer_active">
           {{#if footerNav}}
             {{#with footerNav}}
@@ -42,7 +42,7 @@
           {{/if}}
         </div>
       </div>
-      <div class="span6">
+      <div class="col-md-6">
         <div class="footer-dd dd" id="footer_disabled">
           {{#if footerNavDisabled}}
             {{#with footerNavDisabled}}
@@ -74,8 +74,8 @@
       </form>
     </div>
     <div class="modal-footer">
-      <button class="btn close pull-left">Cancel</button>
-      <button class="edit-link-confirm btn pull-right">Save</button>
+      <button class="btn btn-default close pull-left">Cancel</button>
+      <button class="edit-link-confirm btn btn-default pull-right">Save</button>
     </div>
   </div>
 
@@ -87,8 +87,8 @@
       <p>Are you sure you wish to delete this link?  This action can not be undone</p>
     </div>
     <div class="modal-footer">
-      <button class="btn close pull-left">Cancel</button>
-      <button class="delete-link-confirm btn pull-right">Delete</button>
+      <button class="btn btn-default close pull-left">Cancel</button>
+      <button class="delete-link-confirm btn btn-default pull-right">Delete</button>
     </div>
   </div>
 </template>

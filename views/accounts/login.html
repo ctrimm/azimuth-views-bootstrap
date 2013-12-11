@@ -1,11 +1,11 @@
 <template name='login'>
   <div class="container login">
     <div class="row">
-      <div class="span6">
+      <div class="col-md-6">
         <h3>Login</h3>
         {{#if signedInAs}}
           <p>Signed in as <strong>{{signedInAs}}</strong></p>
-          <a id="logout" class="btn">Log out</a>
+          <a id="logout" class="btn btn-default">Log out</a>
         {{else}}
           {{#if otherLoginServices}}
             <div class="entry-social">

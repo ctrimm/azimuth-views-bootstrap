@@ -5,7 +5,7 @@
     </div>
     <div class="modal-body row">
       <!-- [Add Block] | Block template | Date created | [Preview] (shows below) -->
-      <div class="span6">
+      <div class="col-md-6">
         <table class="table">
           <thead>
             <tr>
@@ -18,7 +18,7 @@
           <tbody>
             {{#each allBlocks}}
               <tr>
-                <td><a class="btn add-existing-block" id="{{_id}}">Insert</a></td>
+                <td><a class="btn btn-default add-existing-block" id="{{_id}}">Insert</a></td>
                 <td>{{template}}</td>
                 <td>{{humanReadableTime created}}</td>
                 <td><a class="preview-block"><div class="block-preview" style="display: none;">{{{renderBlock this}}}</div><i class="fa fa-search"></i></a></td>
@@ -27,10 +27,10 @@
           </tbody>
         </table>
       </div>
-      <div class="span6 existingBlockPreview"></div>
+      <div class="col-md-6 existingBlockPreview"></div>
     </div>
     <div class="modal-footer">
-      <button class="btn close">Cancel</button>
+      <button class="btn btn-default close">Cancel</button>
     </div>
   </div>
 </template>
